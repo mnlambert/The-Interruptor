@@ -5,7 +5,7 @@ function testButton() {
 var green = true;
 
 function clicked(green) {
-        green = !green;
+        this.green = !green;
         console.log(green);
 }
 
